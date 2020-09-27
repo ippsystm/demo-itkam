@@ -1,0 +1,30 @@
+.local-loading {
+    border: 16px solid lightgrey;
+    border-radius: 50%;
+    border-top: 16px solid #555;
+    border-bottom: 16px solid #555;
+    width: 220px;
+    height: 220px;
+    -webkit-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
