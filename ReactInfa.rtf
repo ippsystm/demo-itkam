@@ -20888,7 +20888,7 @@ Before:\par
 \par
 \'d1\'ee\'e7\'e4\'e0\'b8\'ec \'f0\'e5\'ef\'ee\'e7\'e8\'f2\'ee\'f0\'e8\'e9 \f0\lang1033 demo-itkam\f1\lang1049 , \'ea\'eb\'ee\'ed\'e8\'f0\'f3\'e5\'ec \'ed\'e0 \'eb\'ee\'ea\'e0\'eb\'fc\'ed\'fb\'e9 \'e4\'e8\'f1\'ea\f0\lang1033  \f1\lang1049\'ef\'ee \'ef\'f0\'e5\'e4\'f1\'f2\'e0\'e2\'eb\'e5\'ed\'ed\'ee\'e9 \f0\lang1033 github \f1\lang1049\'f1\'f1\'fb\'eb\'ea\'e5:\par
 \cf18\f0\lang1033 cd F:\\React\f1\lang1049\par
-\f0\lang1033 git clone {\ul{\field{\*\fldinst{HYPERLINK https://github.com/ippsystm/demo-itkam.git }}{\fldrslt{https://github.com/ippsystm/demo-itkam.git}}}}\f0\fs22\par
+\f0\lang1033 git clone {\cf0\fs20{\field{\*\fldinst{HYPERLINK https://github.com/ippsystm/demo-itkam.git }}{\fldrslt{https://github.com/ippsystm/demo-itkam.git\ul0\cf0}}}}\f0\fs22\par
 \cf0\f1\lang1049\'ec\'fb \'f1\'ea\'eb\'ee\'ed\'e8\'f0\'ee\'e2\'e0\'eb\'e8 \'ef\'f3\'f1\'f2\'ee\'e9 \'f0\'e5\'ef\'ee\'e7\'e8\'f2\'ee\'f0\'e8\'e9\par
 \'e7\'e0\'ea\'e8\'e4\'fb\'e2\'e0\'e5\'ec \'e2 \'ea\'e0\'f2\'e0\'eb\'ee\'e3 \f0\lang1033 demo-itkam\f1\lang1049  \'f4\'e0\'e9\'eb \f0\lang1033 index.html\par
 \f1\lang1049\'e7\'e0\'f2\'e5\'ec \'e2\'fb\'ef\'ee\'eb\'ed\'e8\'ec \'ea\'ee\'ec\'e0\'ed\'e4\'fb\par
@@ -20898,18 +20898,17 @@ git push\par
 \cf0\f1\lang1049\'e4\'e0\'eb\'e5\'e5 \'e8\'e4\'b8\'ec \'e2 \f0\lang1033 Settings \f1\lang1049\'ed\'e0\'f8\'e5\'e3\'ee \'f0\'e5\'ef\'ee\'e7\'e8\'f2\'ee\'f0\'e8\'ff, \'ef\'f0\'ee\'ea\'f0\'f3\'f7\'e8\'e2\'e0\'e5\'ec \'e2\'ed\'e8\'e7 \'e4\'ee \f0\lang1033 GitHub Pages \f1\lang1049\'e2\'fb\'e1\'e8\'f0\'e0\'e5\'ec \'e2 \f0\lang1033 Select source \f1\lang1049\'e2\'e5\'f2\'ea\'f3 \'e4\'eb\'ff \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'e8\f0\lang1033 (\f1\lang1049\'f1\'ee\'f5\'f0\'e0\'ed\'e8\'f2\'fc?)\par
 \'c2 \f0\lang1033 GitHub Pages \f1\lang1049\'ef\'ee\'ff\'e2\'e8\'f2\'f1\'ff \'f1\'f1\'fb\'eb\'ea\'e0 \'ee\'ef\'f3\'e1\'eb\'e8\'ea\'ee\'e2\'e0\'ed\'ed\'ee\'e3\'ee "\'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'ff"\f0\lang1033\par
 \f1\lang1049\par
-Deploying a React App* to GitHub Pages\par
+Deploying a React App* to GitHub Pages, \'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5:\par
 {{\field{\*\fldinst{HYPERLINK https://github.com/gitname/react-gh-pages }}{\fldrslt{https://github.com/gitname/react-gh-pages\ul0\cf0}}}}\f1\fs22\par
 \par
 \f0\lang1033 3.\f1\lang1049 Install the gh-pages package as a "dev-dependency" of the app\f0\lang1033 :\f1\lang1049\par
 \cf18 npm install gh-pages --save-dev\cf0\par
 \f0\lang1033\par
 4.\f1\lang1049 Add some properties to the app's package.json file\f0\lang1033 .\par
-\par
 At the top level, add a homepage property: \par
 \cf5\fs20 //...\cf0\f1\fs22\lang1049\par
 
-\pard\box\brdrdash\brdrw0 \cf6\f2\fs20\lang1033 "homepage"\cf3 : \cf11 "{{\field{\*\fldinst{HYPERLINK https://github.com/ippsystm/demo-itkam.git }}{\fldrslt{https://github.com/ippsystm/demo-itkam.git\ul0\cf0}}}}\f2\fs20 "\cf3 ,\par
+\pard\box\brdrdash\brdrw0 \cf6\f2\fs20\lang1033 "homepage"\cf3 : \cf11 "{\cf0{\field{\*\fldinst{HYPERLINK https://ippsystm.github.io/demo-itkam }}{\fldrslt{https://ippsystm.github.io/demo-itkam\ul0\cf0}}}}\f2\fs20 "\cf3 ,\par
 
 \pard\cf0\f0\fs22\par
 \f1\lang1049 In the existing scripts property, add a predeploy property and a deploy property, each having the values shown below:\par
@@ -20917,6 +20916,32 @@ At the top level, add a homepage property: \par
 \pard\box\brdrdash\brdrw0 \cf6\f2\fs20 "scripts"\cf3 : \cf5\{\par
 \f0\lang1033 //...\cf3\f2\lang1049\line   \cf6 "predeploy"\cf3 : \cf11 "npm run build"\cf3 ,\line   \cf6 "deploy"\cf3 : \cf11 "gh-pages -d build"\line\cf5\}\cf3 ,\par
 
-\pard\cf0\f1\fs22\par
+\pard\cf0\f1\fs22\'c4\'eb\'ff \'ef\'f3\'e1\'eb\'e8\'ea\'e0\'f6\'e8\'e8 \'f0\'e5\'e0\'eb\'fc\'ed\'ee\'e3\'ee \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'ff \'e2\'fb\'e1\'e5\'f0\'e8\'f2\'e5 \'ea\'ee\'ec\'e0\'ed\'e4\'f3 \f0\lang1033 deploy\par
+\f1\lang1049\'cd\'e0 \f0\lang1033 GitHub-e\f1\lang1049  \'e1\'f3\'e4\'e5\'f2 \'f1\'ee\'e7\'e4\'e0\'ed\'e0 \'e2\'e5\'f2\'ea\'e0 gh-pages \'e8 \'f2\'f3\'e4\'e0 \'e7\'e0\'e4\'e5\'ef\'eb\'ee\'e8\'f2\'f1\'ff \'ef\'f0\'ee\'e5\'ea\'f2. \'cf\'f0\'ee\'e2\'e5\'f0\'e8\'f2\'fc, \'f7\'f2\'ee  \'e2 \f0\lang1033 GitHub Pages \f1\lang1049\'ef\'f0\'ee\'e8\'e7\'ee\'f8\'eb\'ee \'ef\'e5\'f0\'e5\'ea\'eb\'fe\'f7\'e5\'ed\'e8\'e5 \'ed\'e0 \'fd\'f2\'f3 \'e2\'e5\'f2\'ea\'f3. \'cf\'e5\'f0\'e5\'e9\'f2\'e8 \'ef\'ee \'f1\'f1\'fb\'eb\'ea\'e5.\par
+{\fs20{\field{\*\fldinst{HYPERLINK https://ippsystm.github.io/demo-itkam/ }}{\fldrslt{https://ippsystm.github.io/demo-itkam/\ul0\cf0}}}}\f1\fs22\par
+\par
+\'e4\'ee\'e1\'e0\'e2\'e8\'f2\'fc \'e2 \cf14\f2\fs20\lang1033 BrowserRouter\cf0\f0\fs22\par
+
+\pard\box\brdrdash\brdrw0 \cf14\f2\fs20 <BrowserRouter \cf15 basename\cf11 =\cf5\{\cf6\b\i process\cf5\b0\i0 .\cf6 env\cf5 .\cf6 PUBLIC_URL\cf5\}\cf14 >\cf0\f1\fs22\lang1049\par
+
+\pard {\f0\fs20\lang1033{\field{\*\fldinst{HYPERLINK https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819 }}{\fldrslt{https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819\ul0\cf0}}}}\f0\fs22\lang1033\par
+\f1\lang1049\'f2.\'ea. \'ef\'f0\'e8 \'ee\'e1\'f0\'e0\'f9\'e5\'ed\'e8\'e8 \'ea \'e4\'f0\'f3\'e3\'ee\'ec\'f3 \f0\lang1033 route \f1\lang1049\'e1\'f3\'e4\'e5\'f2 \'e7\'e0\'f2\'e8\'f0\'e0\'f2\'fc\'f1\'ff \'f1\'e5\'e3\'ec\'e5\'ed\'f2 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0 \'f1 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'ee\'ec, \'e2 \'ea\'ee\'f2\'ee\'f0\'ee\'ec \'e7\'e0\'e4\'e5\'ef\'eb\'ee\'e5\'ed \'ef\'f0\'ee\'e5\'ea\'f2\f0\lang1033  /demo-itkam/\par
+\f1\lang1049\'e1\'fb\'eb\'ee {\fs20{\field{\*\fldinst{HYPERLINK https://ippsystm.github.io/\f0 users }}{\fldrslt{https://ippsystm.github.io/\f0\lang1033 users\ul0\cf0}}}}\f0\fs22\lang1033\par
+\f1\lang1049\'e1\'f3\'e4\'e5\'f2 {\fs20{\field{\*\fldinst{HYPERLINK https://ippsystm.github.io/demo-itkam/\f0 users }}{\fldrslt{https://ippsystm.github.io/demo-itkam/\f0\lang1033 users\ul0\cf0}}}}\f0\fs20\lang1033\par
+\fs22\par
+\f1\lang1049\'c4\'eb\'ff \'f2\'ee\'e3\'ee, \'f7\'f2\'ee\'e1\'fb \'f0\'e0\'e1\'ee\'f2\'e0\'eb \f0\lang1033 Refresh \f1\lang1049\'ed\'e0 \'f1\'e5\'e3\'ec\'e5\'ed\'f2\'e0\'f5 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0, \'e8\'e7\'ec\'e5\'ed\'e8\'f2\'fc \cf14\f2\fs20\lang1033 BrowserRouter\f1\lang1049  \cf0\fs22\'ed\'e0\f0\lang1033\par
+
+\pard\box\brdrdash\brdrw0 \cf14\f2\fs20 <HashRouter>\par
+
+\pard\cf0\f0\fs22 URL \f1\lang1049\'ef\'f0\'e8\'ec\'e5\'f2 \'e2\'e8\'e4\par
+{\fs20{\field{\*\fldinst{HYPERLINK http://localhost:3000/demo-itkam# }}{\fldrslt{http://localhost:3000/demo-itkam#\ul0\cf0}}}}\f1\fs20\par
+\'f0\'e5\'f8\'b8\'f2\'ea\'e0 \'ff\'e2\'eb\'ff\'e5\'f2\'f1\'ff \'f3\'ea\'e0\'e7\'e0\'f2\'e5\'eb\'e5\'ec \'f1\'e5\'f0\'e2\'e5\'f0\'f3, \'f7\'f2\'ee \'e4\'e0\'eb\'e5\'e5 \'ed\'e5 \'e8\'e4\'f3\'f2 \'f1\'e5\'e3\'ec\'e5\'ed\'f2\'fb \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0(\'fd\'f2\'ee \'f3\'ea\'e0\'e7\'e0\'f2\'e5\'eb\'fc \'e4\'eb\'ff \'e1\'f0\'e0\'f3\'e7\'e5\'f0\'e0), \'f2.\'e5. \'ee\'ed \'ed\'e5 \'e1\'f3\'e4\'e5\'f2 \'e0\'ed\'e0\'eb\'e8\'e7\'e8\'f0\'ee\'e2\'e0\'f2\'fc \'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'e7\'e0 \'f0\'e5\'f8\'b8\'f2\'ea\'ee\'e9\par
+\par
+\'ca\'ee\'e3\'e4\'e0 \'ec\'fb \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'ec \cf14\f2\lang1033 HashRouter \cf0\f1\lang1049\'e2\'ee\'f2 \'fd\'f2\'f3 \'f8\'f2\'f3\'ea\'f3 \cf15\f2\lang1033 basename\cf11 =\cf5\{\cf6\b\i process\cf5\b0\i0 .\cf6 env\cf5 .\cf6 PUBLIC_URL\cf5\}\cf14 >\cf0\f1\lang1049  \'ef\'f0\'ee\'ef\'e8\'f1\'fb\'e2\'e0\'f2\'fc \'ed\'e5 \'ed\'e0\'e4\'ee, \'e8\'ed\'e0\'f7\'e5 \'e1\'f3\'e4\'e5\'f2 \'e4\'f3\'e1\'eb\'e8\'f0\'ee\'e2\'e0\'f2\'fc\'f1\'ff \'f1\'e5\'e3\'ec\'e5\'ed\'f2 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0\par
+{{\field{\*\fldinst{HYPERLINK http://localhost:3000/demo-itkam#/demo-itkam }}{\fldrslt{http://localhost:3000/demo-itkam#/demo-itkam\ul0\cf0}}}}\f0\fs22\lang1033\par
+\par
+\cf15\f2\fs20 basename\cf0\f1\fs22\lang1049  \'ec\'ee\'e6\'ed\'ee \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'fc \'f2\'ee\'e3\'e4\'e0, \'ea\'ee\'e3\'e4\'e0 \'ef\'ee \'ea\'e0\'ea\'e8\'ec-\'eb\'e8\'e1\'ee \'ef\'f0\'e8\'f7\'e8\'ed\'e0\'ec \'ec\'fb \'f5\'ee\'f2\'e8\'ec, \'f7\'f2\'ee\'e1\'fb \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5 \'e7\'e0\'e3\'f0\'f3\'e6\'e0\'eb\'ee\'f1\'fc \'ed\'e5 \'f1 \'ea\'ee\'f0\'ed\'ff, \'e0 \'f1 \'ea\'e0\'ea\'ee\'e9-\'eb\'e8\'e1\'ee \'ef\'e0\'ef\'ea\'e8 - \'ee\'e4\'e8\'ed \'f1\'e0\'e9\'f2, \'ed\'ee \'ef\'ee\'e4 \'f0\'e0\'e7\'ed\'fb\'ec\'e8\f0\lang1033  URL - \f1\lang1049\'f3 \'ea\'e0\'e6\'e4\'ee\'e3\'ee \'f1\'e2\'ee\'e9 \'e1\'e0\'e7\'ee\'e2\'fb\'e9 \f0\lang1033 URL \f1\lang1049\'e8 \'ee\'ed\'e8 \'ed\'e5 \'e4\'ee\'eb\'e6\'ed\'fb \'ef\'e5\'f0\'e5\'f1\'e5\'ea\'e0\'f2\'fc\'f1\'ff - \'ec\'fb \'ef\'f0\'fb\'e3\'e0\'e5\'ec \'ef\'ee \'f1\'f2\'f0\'e0\'ed\'e8\'f7\'ea\'e0\'ec - \'ea\'e0\'ea \'e1\'f3\'e4\'f2\'ee \'ee\'e4\'ed\'ee \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5, \'ed\'ee, \'ef\'ee \'f4\'e0\'ea\'f2\'f3, \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2\'f1\'ff \'e4\'f0\'f3\'e3\'ee\'e5 \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5\f0\lang1033\par
+end\f1\lang1049\par
+\par
 }
  
